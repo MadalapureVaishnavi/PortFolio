@@ -1,0 +1,97 @@
+.head{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 18rem;  
+    color: black;
+    font-family: 'Gumela Regular';
+    font-weight: bold;
+    margin-bottom: 5%;
+    
+   }
+
+   .projects{
+    gap: 2rem;
+    align-items: center;
+    margin-top: 4rem;
+    flex-direction: row;
+   }
+  .projects>span{
+    justify-content: space-around;
+    background: white;
+    box-shadow: 0px,20px,24px,3px,rgba(251, 161, 40, 0.42);
+    border-radius: 17px;
+    align-items: center;
+    padding: 0px, 28px 0px 0px;
+    padding-right: 30%;
+    height: 4.5rem;
+    width: 10rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10rem;
+    font-weight: bold;  
+    background: rgba(255,255,255,0.26);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+    
+}
+.projects2>span{
+    justify-content: space-around;
+    display: flex;
+    background: white;
+    font-weight: bold;
+    box-shadow: 0px,20px,24px,3px,rgba(251, 161, 40, 0.42);
+    border-radius: 17px;
+    align-items: center;
+    padding: 0px, 28px 0px 0px;
+    padding-right: 30%;
+    width: 10rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    text-align: center; 
+    background: rgba(255,255,255,0.26);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+    margin-left: 30rem;
+    margin-top: -15.8rem;
+}
+
+.c-button{
+    background: #ffffff;
+    box-shadow: 0px 19px 60px rgba(0,0,0,0.08);
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+     display: flex;
+    color: #5290fd;
+}
+
+
+
+@media screen and (max-width: 480px){
+    .demo{
+        margin-top: 0;
+        flex-direction: column;
+        height: 64rem;
+        gap: 2rem;
+        padding: 0;
+    }
+    .demo{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+        transform: scale(0.8);
+        left: -3rem;
+    }
+    .demo>*{
+        position: static;
+    }
+}
